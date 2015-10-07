@@ -1,2 +1,1 @@
-Observer Design Pattern
-
+${1:Project Name}
