@@ -1,0 +1,7 @@
+3. I don't really understand the question but I thought of a few possible ways.
+
+One way is just to start an iterator on the base component, and because the decorator pattern is inherently recursive
+just keep a reference of where the iterator is and pass the iterator through the decorator. You can store the outermost object with the iterator and change it with each call.
+
+Another way which might be cheating is to create a structure within the base component like a queue, and just store each item
+as you decorate inside of the queue and then just iterate through that to get the decorations.
